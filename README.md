@@ -1,4 +1,4 @@
-# Epson Network Push-Scan Control Center
+# Network Push-Scan Control Center
 
 Eine lightweight, entkoppelte Linux-Lösung, um Push-Button-Scans von Epson-Netzwerkscannern (z. B. Expression- und WorkForce-Serien) abzufangen und automatisiert auf einem Linux-Rechner oder Server zu speichern.
 
@@ -6,7 +6,7 @@ Das System besteht aus einem hochperformanten **Kommunikations-Daemon** für die
 
 ---
 
-## 📸 Funktionsweise
+## Funktionsweise
 
 Wenn am LCD-Display des Scanners eine Taste gedrückt wird (z. B. *"Scan auf Computer (JPEG)"*), sendet das Gerät eine Nachricht im Epson-Netzwerkprotokoll (**ENSP / ESC/I-net**).
 
@@ -22,7 +22,7 @@ Wenn am LCD-Display des Scanners eine Taste gedrückt wird (z. B. *"Scan auf Com
 
 ---
 
-## 💻 Hardware-Kompatibilität & Voraussetzungen
+## Hardware-Kompatibilität & Voraussetzungen
 
 ### Getestete Hardware
 
@@ -54,7 +54,7 @@ Wenn am LCD-Display des Scanners eine Taste gedrückt wird (z. B. *"Scan auf Com
 
 ---
 
-## 🔒 Sicherheitsarchitektur (Non-Root Execution)
+## Sicherheitsarchitektur (Non-Root Execution)
 
 Sämtliche Dienste laufen streng getrennt vom Root-Benutzer unter einem dedizierten System-Benutzer `epsonscan`.
 
@@ -87,7 +87,7 @@ HTTP-POST Nachricht / UI-Eingabe
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Die Installation erfolgt vollautomatisch über das interaktive Skript `install.sh`.
 
@@ -148,7 +148,7 @@ Das Installer-Skript führt automatisch folgende Schritte durch:
 
 ---
 
-## 🛠️ Benutzung & Web-Oberfläche
+## Benutzung & Web-Oberfläche
 
 Nach erfolgreicher Installation ist die Web-Oberfläche im lokalen Netzwerk von jedem beliebigen PC oder Gerät erreichbar unter:
 
@@ -188,7 +188,7 @@ Auf der Startseite können die Zielordner und Scan-Parameter für alle Tasten de
 
 *Änderungen an den Scan-Profilen werden vom Daemon **sofort beim nächsten Tastendruck** ohne Service-Neustart übernommen!*
 
-### ⚙️ Navigation & Menü (Oben Rechts)
+### Navigation & Menü (Oben Rechts)
 
 Klicke auf das Zahnrad-Icon `⚙️` oben rechts (inkl. Tooltip), um das Dropdown-Menü zu öffnen:
 
@@ -210,7 +210,7 @@ Klicke auf das Zahnrad-Icon `⚙️` oben rechts (inkl. Tooltip), um das Dropdow
 
 ---
 
-## 🗂️ Verzeichnisstruktur & Dateien
+## Verzeichnisstruktur & Dateien
 
 Nach der Installation stehen die Dateien an folgenden Orten im System:
 
@@ -225,7 +225,7 @@ Nach der Installation stehen die Dateien an folgenden Orten im System:
 
 ---
 
-## 🔧 Service-Steuerung
+## Service-Steuerung
 
 Die Dienste laufen als Hintergrunddienste unter dem System-Benutzer `epsonscan` und starten automatisch beim Systemstart. Sie können über `systemctl` verwaltet werden:
 
@@ -245,7 +245,7 @@ journalctl -u epson-push-daemon.service -f
 
 ---
 
-## ❓ Troubleshooting
+## Troubleshooting
 
 1. **Der Scanner findet den PC/Server nicht am Display:**
 * Stelle sicher, dass die IP-Adresse in den Daemon-Einstellungen korrekt angegeben ist.
