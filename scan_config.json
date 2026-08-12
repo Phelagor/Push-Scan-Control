@@ -1,0 +1,26 @@
+{
+  "default_save_dir": "/srv/scans",
+  "push_actions": {
+    "01": {
+      "label": "Scan auf PC (JPEG)",
+      "format": "jpeg",
+      "mode": "Color",
+      "resolution": 300,
+      "save_dir": ""
+    },
+    "02": {
+      "label": "Scan auf PC (PDF)",
+      "format": "pdf",
+      "mode": "Color",
+      "resolution": 300,
+      "save_dir": ""
+    },
+    "03": {
+      "label": "Scan als E-Mail (Gray)",
+      "format": "jpeg",
+      "mode": "Gray",
+      "resolution": 150,
+      "save_dir": ""
+    }
+  }
+}

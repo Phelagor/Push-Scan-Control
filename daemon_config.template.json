@@ -1,0 +1,12 @@
+{
+  "_comment_scanner_ip": "IP-Adresse des Epson Scanners im lokalen Netzwerk",
+  "scanner_ip": "192.168.178.XXX",
+
+  "_comment_client_name": "Anzeigename auf dem Scanner LCD Display (max. 16 Zeichen)",
+  "client_name": "LINUX-WORKSTATION",
+
+  "_comment_ports": "Standard-Ports fuer Epson ENSP / ESC/I-net (normalerweise nicht aendern)",
+  "event_port": 1865,
+  "slp_port": 2968,
+  "mcast_grp": "239.255.255.253"
+}
