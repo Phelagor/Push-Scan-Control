@@ -216,24 +216,12 @@ Nach der Installation stehen die Dateien an folgenden Orten im System:
 
 | Pfad | Beschreibung |
 | --- | --- |
-| `/usr/local/bin/epson-push-scan/` | Skriptverzeichnis (`epson_scanner_daemon.py`, `epson_web_config.py`)
-
- |
-| `/etc/epson/daemon_config.json` | Hardware- & Netzwerkeinstellungen (Scanner IP, ClientName, Ports)
-
- |
-| `/etc/epson/scan_config.json` | Profil-Einstellungen (Formate, Auflösungen, Subordner)
-
- |
-| `/var/log/epson/daemon.log` | Protokoll der Scan-Vorgänge, SANE-Ausgaben und Netzwerk-Events
-
- |
-| `/var/log/epson/web.log` | Protokoll des Web-Interfaces & Pfad-Validierungen
-
- |
-| `/srv/scans/` | Standard-Speicherort für alle gescannten Dokumente
-
- |
+| `/usr/local/bin/epson-push-scan/` | Skriptverzeichnis (`epson_scanner_daemon.py`, `epson_web_config.py`) |
+| `/etc/epson/daemon_config.json` | Hardware- & Netzwerkeinstellungen (Scanner IP, ClientName, Ports) |
+| `/etc/epson/scan_config.json` | Profil-Einstellungen (Formate, Auflösungen, Subordner) |
+| `/var/log/epson/daemon.log` | Protokoll der Scan-Vorgänge, SANE-Ausgaben und Netzwerk-Events |
+| `/var/log/epson/web.log` | Protokoll des Web-Interfaces & Pfad-Validierungen |
+| `/srv/scans/` | Standard-Speicherort für alle gescannten Dokumente |
 
 ---
 
